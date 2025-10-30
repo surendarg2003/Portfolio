@@ -58,6 +58,7 @@
 
   .certificates-grid {
     gap: 1rem;
+    grid-template-columns: repeat(2, 1fr); /* Limit to 2 columns in landscape */
   }
 
   .certificate-card {
